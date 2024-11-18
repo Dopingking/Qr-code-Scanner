@@ -1,0 +1,51 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    font-family: Outfit;
+}
+.center{
+    text-align: center;
+}
+
+.Desktop{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem auto;
+    max-width: 1440px;
+}
+
+.Box{
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.code{
+    padding: 20px;
+
+
+    img{
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+
+.Text{
+    margin-bottom: 40px;
+    p{
+        font-size: 15px;
+        color: grey;
+    }
+}
+
+@media (max-width:450px) {
+
+    .Desktop{
+        width: fit-content;
+        background-color: red;
+    }
+}
